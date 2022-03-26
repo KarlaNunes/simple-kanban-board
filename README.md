@@ -1,4 +1,4 @@
-# Simple Kanban Board
+# 📌 Simple Kanban Board
 
 ## Visuals
 
