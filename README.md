@@ -13,7 +13,7 @@
 The project is a Kanban board that allows you to manage all of your tasks.
 The basis of the project was developed in a Rocketseat Masterclass using the Drag and Drop API from HTML5.
 <br>
-Link to Masterclass: https://youtu.be/6wn8hpUcEcM
+Link to Masterclass: <a target="_blank" href="https://youtu.be/6wn8hpUcEcM"> Drag and Drop Raiz com a API do HTML, CSS e JavaScript | Masterclass #16 </a>
 
 ## Techs
 
