@@ -1,0 +1,90 @@
+:root {
+  --violet-color: #6743a5;
+  --light-violet-color: #a09e9e4b;
+  --gray-color: #2e2e2e;
+  --light-gray-color: #808080;
+  --white-color: #ffffff;
+  --black-color: #000000;
+}
+
+html,
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: var(--gray-color);
+}
+
+.boards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.board {
+  background-color: var(--violet-color);
+  color: #fff;
+  /* border: 1px solid #594747; */
+  border-radius: 6px;
+  margin: 0 16px;
+}
+
+.board h3 {
+  padding: 16px;
+  margin: 0;
+}
+
+.dropzone {
+  padding: 16px;
+  min-width: 282px;
+  min-height: 200px;
+}
+
+.card {
+  background-color: var(--white-color);
+  padding: 16px;
+  box-shadow: 0 2px 2px -1px var(--gray-color);
+  border-radius: 4px;
+  width: 250px;
+  margin: 25px 0;
+  font-weight: 700;
+  font-size: 18px;
+
+  color: var(--black-color);
+}
+
+.status {
+  width: 40px;
+  height: 8px;
+  background: gray;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.status.green {
+  background: #1cdd5c;
+}
+
+.status.blue {
+  background: #33adff;
+}
+
+.status.red {
+  background: #ff0000;
+}
+
+.highlight {
+  /* background-color: var(--light-violet-color); */
+  background-color: #2013353f;
+}
+
+.dropzone {
+  transition: 0.4s;
+}
+
+.over {
+  background-color: #f631c867;
+  border-radius: 4px;
+}
+
+.is-dragging {
+  cursor: pointer;
+}
